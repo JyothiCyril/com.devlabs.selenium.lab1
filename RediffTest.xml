@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Automation">
+ <parameter name="Browser" value ="chrome"/>
+ <parameter name="Url" value ="https://www.rediff.com/"/>
+
+ <!--<test thread-count="5" name="Rediff Functional Testing " parallel = "classes">
+        <classes>      
+     <class name="com.qa.testscripts.RediffExample"/>
+    </classes>
+  </test--> 
+  
+  <test thread-count="5" name="Assert Demo">
+  
+    <classes>
+      <class name="com.qa.testscripts.AssertsinTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
